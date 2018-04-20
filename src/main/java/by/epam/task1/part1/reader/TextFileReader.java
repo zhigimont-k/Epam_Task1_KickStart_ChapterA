@@ -10,28 +10,38 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.stream.Stream;
 
 public class TextFileReader {
     private static Logger logger = LogManager.getLogger();
 
-    public List<String> readFile(String fileName) throws IllegalFileInputException{
-        if (fileIsEmpty(fileName)){
+    public ArrayList<String> readFile(String fileName) throws IllegalFileInputException {
+        if (!fileExists(fileName)) {
+            logger.log(Level.ERROR, "Attempt to read non-existent file.");
+            throw new IllegalFileInputException("File doesn't exist.");
+        }
+        if (fileIsEmpty(fileName)) {
+            logger.log(Level.ERROR, "Attempt to read empty file.");
             throw new IllegalFileInputException("File is empty.");
         }
-        List<String> linesList = new ArrayList<>();
+        ArrayList<String> linesList = new ArrayList<>();
         try (Stream<String> stream = Files.lines(Paths.get(fileName))) {
             stream.forEach(linesList::add);
         } catch (IOException e) {
             logger.catching(Level.FATAL, e);
             throw new RuntimeException(e);
         }
+        logger.log(Level.INFO, "Lines read: " + linesList);
         return linesList;
     }
 
-    private boolean fileIsEmpty(String fileName){
+    private boolean fileIsEmpty(String fileName) {
         File file = new File(fileName);
         return file.length() == 0;
+    }
+
+    private boolean fileExists(String fileName) {
+        File file = new File(fileName);
+        return file.exists();
     }
 }

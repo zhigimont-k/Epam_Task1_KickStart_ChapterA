@@ -2,34 +2,43 @@ package by.epam.task1.reader;
 
 import by.epam.task1.part1.exception.IllegalFileInputException;
 import by.epam.task1.part1.reader.TextFileReader;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.testng.Assert;
 
-import java.io.File;
-import java.util.List;
+import java.util.ArrayList;
+
 
 public class TextFileReaderTest {
-    private final static String FILE_PATH = "files/input.txt";
-    private final static String EMPTY_FILE_PATH = "";
-    private final static String WRONG_FILE_PATH = "files/inpu.txt";
+    private final static String FILE_PATH = "data/input.txt";
+    private final static String EMPTY_FILE_PATH = "data/empty.txt";
+    private final static String WRONG_FILE_PATH = "data/inpu.txt";
+    private ArrayList<String> expectedStringList;
     private TextFileReader reader = new TextFileReader();
 
+    @Before
+    public void initExpectedStringList(){
+        expectedStringList = new ArrayList<>();
+        expectedStringList.add("1.0 2.0 3.5 4.5");
+        expectedStringList.add("9.0 11.0 8.0 7.0");
+        expectedStringList.add("12.1 11.3 6.5 8.1");
+        expectedStringList.add("7.3 8.9 4.2 3.1");
+    }
     @Test
-    public void readFilePositive() {
-        try {
-            reader.readFile(FILE_PATH);
-        } catch (IllegalFileInputException e){
-            Assert.fail();
-        }
+    public void readFilePositive() throws IllegalFileInputException {
+        ArrayList<String> stringList = reader.readFile(FILE_PATH);
+        Assert.assertEquals(stringList, expectedStringList);
     }
 
-    @Test
-    public void readEmptyFile() {
+    @Test(expected = IllegalFileInputException.class)
+    public void readEmptyFile() throws IllegalFileInputException {
+        reader.readFile(EMPTY_FILE_PATH);
     }
 
-    @Test
-    public void readFileNotFound() {
+    @Test(expected = IllegalFileInputException.class)
+    public void readFileNotFound() throws IllegalFileInputException{
+        reader.readFile(WRONG_FILE_PATH);
     }
 
 }
