@@ -3,7 +3,6 @@ package by.epam.task1.reader;
 import by.epam.task1.part1.exception.IllegalFileInputException;
 import by.epam.task1.part1.reader.TextFileReader;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.testng.Assert;
 
@@ -11,7 +10,7 @@ import java.util.ArrayList;
 
 
 public class TextFileReaderTest {
-    private final static String FILE_PATH = "data/input.txt";
+    protected final static String FILE_PATH = "data/input.txt";
     private final static String EMPTY_FILE_PATH = "data/empty.txt";
     private final static String WRONG_FILE_PATH = "data/inpu.txt";
     private ArrayList<String> expectedStringList;
@@ -21,9 +20,13 @@ public class TextFileReaderTest {
     public void initExpectedStringList(){
         expectedStringList = new ArrayList<>();
         expectedStringList.add("1.0 2.0 3.5 4.5");
-        expectedStringList.add("9.0 11.0 8.0 7.0");
+        expectedStringList.add("9.0 11.0 8.0 7.0;");
         expectedStringList.add("12.1 11.3 6.5 8.1");
         expectedStringList.add("7.3 8.9 4.2 3.1");
+        expectedStringList.add("10,2 6,4 8.1 12.0");
+        expectedStringList.add("o4.5 8.0 7.5 6.12");
+        expectedStringList.add("12;2 14.0 18,4 12,5");
+        expectedStringList.add("6.4 15.9 9.0 4.15");
     }
     @Test
     public void readFilePositive() throws IllegalFileInputException {
