@@ -22,11 +22,10 @@ public class LineValidatorTest {
         validator = new LineValidator();
         reader = new TextFileReader();
         expected = new ArrayList<>();
-        expected.add("1.0 2.0 3.5 4.5");
-        expected.add("12.1 11.3 6.5 8.1");
-        expected.add("7.3 8.9 4.2 3.1");
-        expected.add("10,2 6,4 8.1 12.0");
-        expected.add("6.4 15.9 9.0 4.15");
+        expected.add("1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9");
+        expected.add("12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6");
+        expected.add("7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6");
+        expected.add("6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6");
     }
 
     @Test

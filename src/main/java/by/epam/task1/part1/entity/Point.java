@@ -1,14 +1,14 @@
 package by.epam.task1.part1.entity;
 
-public class Point {
+public class Point implements GeometricalEntity{
     private double x;
     private double y;
     private double z;
 
-    Point() {
+    public Point() {
     }
 
-    Point(double x, double y, double z) {
+    public Point(double x, double y, double z) {
         this.x = x;
         this.y = y;
         this.z = z;
@@ -41,12 +41,14 @@ public class Point {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Point point = (Point) o;
-        return Double.compare(point.x, x) == 0 &&
-                Double.compare(point.y, y) == 0 &&
-                Double.compare(point.z, z) == 0;
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Point other = (Point) o;
+        return x == other.x && y == other.y && z == other.z;
     }
 
     @Override
@@ -58,10 +60,9 @@ public class Point {
     
     @Override
     public String toString() {
-        return "Point{" +
-                "x=" + x +
-                ", y=" + y +
-                ", z=" + z +
-                '}';
+        return "Point(" +
+                x + ", " +
+                y + ", " +
+                z + ')';
     }
 }

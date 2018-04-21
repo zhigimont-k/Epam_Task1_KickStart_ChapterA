@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.ArrayList;
 
 public class LineValidator {
-    private final static String PATTERN = "(^(((-))?((\\d+((\\.|,)\\d+)?)\\s){3}(((-))?((\\d+((\\.|,)\\d+)?))))$)";
+    private final static String PATTERN = "(^(((-))?((\\d+((\\.)\\d+)?)\\s){11}(((-))?((\\d+((\\.|,)\\d+)?))))$)";
     private static Logger logger = LogManager.getLogger();
 
     public void validate(ArrayList<String> lines) {

@@ -19,14 +19,14 @@ public class TextFileReaderTest {
     @Before
     public void initExpectedStringList(){
         expectedStringList = new ArrayList<>();
-        expectedStringList.add("1.0 2.0 3.5 4.5");
-        expectedStringList.add("9.0 11.0 8.0 7.0;");
-        expectedStringList.add("12.1 11.3 6.5 8.1");
-        expectedStringList.add("7.3 8.9 4.2 3.1");
-        expectedStringList.add("10,2 6,4 8.1 12.0");
-        expectedStringList.add("o4.5 8.0 7.5 6.12");
-        expectedStringList.add("12;2 14.0 18,4 12,5");
-        expectedStringList.add("6.4 15.9 9.0 4.15");
+        expectedStringList.add("1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9");
+        expectedStringList.add("9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9");
+        expectedStringList.add("12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6");
+        expectedStringList.add("7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6");
+        expectedStringList.add("10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6");
+        expectedStringList.add("o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6");
+        expectedStringList.add("12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6");
+        expectedStringList.add("6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6");
     }
     @Test
     public void readFilePositive() throws IllegalFileInputException {

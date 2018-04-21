@@ -16,11 +16,12 @@ public class TextFileReader {
     private static Logger logger = LogManager.getLogger();
 
     public ArrayList<String> readFile(String fileName) throws IllegalFileInputException {
-        if (!fileExists(fileName)) {
+        File file = new File(fileName);
+        if (!file.exists()) {
             logger.log(Level.ERROR, "Attempt to read non-existent file.");
             throw new IllegalFileInputException("File doesn't exist.");
         }
-        if (fileIsEmpty(fileName)) {
+        if (file.length() == 0) {
             logger.log(Level.ERROR, "Attempt to read empty file.");
             throw new IllegalFileInputException("File is empty.");
         }
@@ -33,15 +34,5 @@ public class TextFileReader {
         }
         logger.log(Level.INFO, "Lines read: " + linesList);
         return linesList;
-    }
-
-    private boolean fileIsEmpty(String fileName) {
-        File file = new File(fileName);
-        return file.length() == 0;
-    }
-
-    private boolean fileExists(String fileName) {
-        File file = new File(fileName);
-        return file.exists();
     }
 }
