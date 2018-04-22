@@ -22,11 +22,9 @@ public class GeometricalEntityParser {
 
     public TetrahedronStore parse(ArrayList<String> strings) {
         TetrahedronStore store = new TetrahedronStore();
-        ParameterValidator paramValidator = new ParameterValidator();
         GeometricalEntityCreator[] creators = {new PointCreator(), new TetrahedronCreator()};
         for (String line : strings) {
             String[] splitted = line.split(SPLITTER);
-            double[] parameters = new double[PARAMETERS_NUMBER];
             ArrayList<Point> points = new ArrayList<>();
             for (int i = 0; i < PARAMETERS_NUMBER; i += POINT_PARAMETERS_NUMBER) {
                 GeometricalEntity entity = creators[0].create();
@@ -36,16 +34,13 @@ public class GeometricalEntityParser {
                 point.setZ(Double.parseDouble(splitted[i + 2]));
                 points.add(point);
             }
-            if (paramValidator.dataIsCorrect(points)) {
-                GeometricalEntity entity = creators[1].create();
-                Tetrahedron tetrahedron = (Tetrahedron) entity;
-                tetrahedron.setPoints(points);
-                store.add(tetrahedron);
+            GeometricalEntity entity = creators[1].create();
+            Tetrahedron tetrahedron = (Tetrahedron) entity;
+            tetrahedron.setPoints(points);
+            if (ParameterValidator.validate(tetrahedron)) {
                 logger.log(Level.INFO, "Tetrahedron was added to store: " + tetrahedron);
-
             } else {
                 logger.log(Level.INFO, "The following data is incorrect: " + line);
-                continue;
             }
         }
         return store;
