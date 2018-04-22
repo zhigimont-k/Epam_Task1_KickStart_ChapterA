@@ -1,14 +1,12 @@
 package by.epam.task1.part1.store;
 
-import by.epam.task1.part1.entity.Pyramid;
+import by.epam.task1.part1.entity.Tetrahedron;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
-import java.util.Objects;
 
-public class PyramidStore {
-    private ArrayList<Pyramid> store = new ArrayList<>();
+public class TetrahedronStore {
+    private ArrayList<Tetrahedron> store = new ArrayList<>();
 
     public int size() {
         return store.size();
@@ -18,19 +16,19 @@ public class PyramidStore {
         return store.isEmpty();
     }
 
-    public Pyramid get(int index) {
+    public Tetrahedron get(int index) {
         return store.get(index);
     }
 
-    public Pyramid set(int index, Pyramid element) {
+    public Tetrahedron set(int index, Tetrahedron element) {
         return store.set(index, element);
     }
 
-    public boolean add(Pyramid pyramid) {
-        return store.add(pyramid);
+    public boolean add(Tetrahedron tetrahedron) {
+        return store.add(tetrahedron);
     }
 
-    public Pyramid remove(int index) {
+    public Tetrahedron remove(int index) {
         return store.remove(index);
     }
 
@@ -38,7 +36,7 @@ public class PyramidStore {
         store.clear();
     }
 
-    public boolean addAll(Collection<? extends Pyramid> c) {
+    public boolean addAll(Collection<? extends Tetrahedron> c) {
         return store.addAll(c);
     }
 
@@ -50,7 +48,7 @@ public class PyramidStore {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        PyramidStore other = (PyramidStore) o;
+        TetrahedronStore other = (TetrahedronStore) o;
         int arraySize = store.size();
         for (int i = 0; i < arraySize; i++) {
             if (!store.get(i).equals(other.store.get(i))) {
@@ -63,14 +61,14 @@ public class PyramidStore {
     @Override
     public int hashCode() {
         int hash = 1;
-        for (Pyramid pyramid : store) {
-            hash += hash * 31 + pyramid.hashCode();
+        for (Tetrahedron tetrahedron : store) {
+            hash += hash * 31 + tetrahedron.hashCode();
         }
         return hash;
     }
 
     @Override
     public String toString() {
-        return "PyramidStore{" + store + '}';
+        return "TetrahedronStore{" + store + '}';
     }
 }

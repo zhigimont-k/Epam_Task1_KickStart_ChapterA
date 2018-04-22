@@ -10,7 +10,7 @@ public class LineValidator {
     private final static String PATTERN = "(^(((-))?((\\d+((\\.)\\d+)?)\\s){11}(((-))?((\\d+((\\.|,)\\d+)?))))$)";
     private static Logger logger = LogManager.getLogger();
 
-    public void validate(ArrayList<String> lines) {
+    public static void validate(ArrayList<String> lines) {
         ArrayList<String> wrongLines = new ArrayList<>();
         for (String line : lines) {
             if (!line.matches(PATTERN)) {

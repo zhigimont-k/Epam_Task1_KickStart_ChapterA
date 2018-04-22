@@ -2,11 +2,11 @@ package by.epam.task1.part1.parser;
 
 import by.epam.task1.part1.creator.GeometricalEntityCreator;
 import by.epam.task1.part1.creator.PointCreator;
-import by.epam.task1.part1.creator.PyramidCreator;
+import by.epam.task1.part1.creator.TetrahedronCreator;
 import by.epam.task1.part1.entity.GeometricalEntity;
 import by.epam.task1.part1.entity.Point;
-import by.epam.task1.part1.entity.Pyramid;
-import by.epam.task1.part1.store.PyramidStore;
+import by.epam.task1.part1.entity.Tetrahedron;
+import by.epam.task1.part1.store.TetrahedronStore;
 import by.epam.task1.part1.validation.ParameterValidator;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -20,10 +20,10 @@ public class GeometricalEntityParser {
     private static final String SPLITTER = "\\s";
     private static Logger logger = LogManager.getLogger();
 
-    public PyramidStore parse(ArrayList<String> strings) {
-        PyramidStore store = new PyramidStore();
+    public TetrahedronStore parse(ArrayList<String> strings) {
+        TetrahedronStore store = new TetrahedronStore();
         ParameterValidator paramValidator = new ParameterValidator();
-        GeometricalEntityCreator[] creators = {new PointCreator(), new PyramidCreator()};
+        GeometricalEntityCreator[] creators = {new PointCreator(), new TetrahedronCreator()};
         for (String line : strings) {
             String[] splitted = line.split(SPLITTER);
             double[] parameters = new double[PARAMETERS_NUMBER];
@@ -38,10 +38,10 @@ public class GeometricalEntityParser {
             }
             if (paramValidator.dataIsCorrect(points)) {
                 GeometricalEntity entity = creators[1].create();
-                Pyramid pyramid = (Pyramid) entity;
-                pyramid.setPoints(points);
-                store.add(pyramid);
-                logger.log(Level.INFO, "Pyramid was added to store: " + pyramid);
+                Tetrahedron tetrahedron = (Tetrahedron) entity;
+                tetrahedron.setPoints(points);
+                store.add(tetrahedron);
+                logger.log(Level.INFO, "Tetrahedron was added to store: " + tetrahedron);
 
             } else {
                 logger.log(Level.INFO, "The following data is incorrect: " + line);

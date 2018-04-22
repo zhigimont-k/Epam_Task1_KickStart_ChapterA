@@ -3,15 +3,14 @@ package by.epam.task1.part1.entity;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Objects;
 
-public class Pyramid implements GeometricalEntity{
+public class Tetrahedron implements GeometricalEntity{
     private ArrayList<Point> points;
 
-    public Pyramid() {
+    public Tetrahedron() {
     }
 
-    public Pyramid(Point point1, Point point2, Point point3, Point point4) {
+    public Tetrahedron(Point point1, Point point2, Point point3, Point point4) {
         points = new ArrayList<>();
         points.add(point1);
         points.add(point2);
@@ -41,7 +40,7 @@ public class Pyramid implements GeometricalEntity{
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        Pyramid other = (Pyramid) o;
+        Tetrahedron other = (Tetrahedron) o;
         int arraySize = points.size();
         for (int i = 0; i < arraySize; i++) {
             if (!points.get(i).equals(other.points.get(i))) {
@@ -62,6 +61,6 @@ public class Pyramid implements GeometricalEntity{
 
     @Override
     public String toString() {
-        return "Pyramid(" + points + ')';
+        return "Tetrahedron(" + points + ')';
     }
 }

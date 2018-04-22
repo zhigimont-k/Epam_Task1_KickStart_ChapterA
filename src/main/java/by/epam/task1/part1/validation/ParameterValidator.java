@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class ParameterValidator {
 
-    public boolean dataIsCorrect(ArrayList<Point> points) {
+    public static boolean dataIsCorrect(ArrayList<Point> points) {
         ArrayList<Point> foundPoints = new ArrayList<>();
         for (Point point : points){
             if (foundPoints.contains(point)){
