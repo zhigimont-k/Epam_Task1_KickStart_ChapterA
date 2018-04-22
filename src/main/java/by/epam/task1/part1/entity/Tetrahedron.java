@@ -5,13 +5,12 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 public class Tetrahedron implements GeometricalEntity{
-    private ArrayList<Point> points;
+    private ArrayList<Point> points = new ArrayList<>();
 
     public Tetrahedron() {
     }
 
     public Tetrahedron(Point point1, Point point2, Point point3, Point point4) {
-        points = new ArrayList<>();
         points.add(point1);
         points.add(point2);
         points.add(point3);

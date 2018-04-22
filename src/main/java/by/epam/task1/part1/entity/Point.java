@@ -14,6 +14,12 @@ public class Point implements GeometricalEntity{
         this.z = z;
     }
 
+    public Point(Point other){
+        this.x = other.x;
+        this.y = other.y;
+        this.z = other.z;
+    }
+
     public double getX() {
         return x;
     }

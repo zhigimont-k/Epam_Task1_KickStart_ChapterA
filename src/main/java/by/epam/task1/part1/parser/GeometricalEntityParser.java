@@ -39,6 +39,7 @@ public class GeometricalEntityParser {
             tetrahedron.setPoints(points);
             if (ParameterValidator.validate(tetrahedron)) {
                 logger.log(Level.INFO, "Tetrahedron was added to store: " + tetrahedron);
+                store.add(tetrahedron);
             } else {
                 logger.log(Level.INFO, "The following data is incorrect: " + line);
             }

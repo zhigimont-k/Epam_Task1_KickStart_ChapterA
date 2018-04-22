@@ -50,6 +50,9 @@ public class TetrahedronStore {
         }
         TetrahedronStore other = (TetrahedronStore) o;
         int arraySize = store.size();
+        if (store.size() != other.store.size()){
+            return false;
+        }
         for (int i = 0; i < arraySize; i++) {
             if (!store.get(i).equals(other.store.get(i))) {
                 return false;

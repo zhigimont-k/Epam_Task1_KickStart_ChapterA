@@ -16,29 +16,23 @@ import java.util.ArrayList;
 import static by.epam.task1.reader.TextFileReaderTest.FILE_PATH;
 
 public class GeometricalEntityParserTest {
-    private LineValidator validator;
     private TextFileReader reader;
     private GeometricalEntityParser parser;
     private TetrahedronStore expected;
 
     @Before
     public void init() {
-        validator = new LineValidator();
         reader = new TextFileReader();
         parser = new GeometricalEntityParser();
         expected = new TetrahedronStore();
-        expected.add(new Tetrahedron(new Point(1.0, 2.0, 3.5), new Point(4.5, 12.2, 13.3),
-                new Point(14.4, 15.5, 16.6), new Point(17.7, 18.8, 19.9)));
-        expected.add(new Tetrahedron(new Point(12.1, 11.3, 6.5), new Point(8.1, 2.0, 3.5),
-                new Point(4.5, 12.2, 13.3), new Point(14.4, 15.5, 16.6)));
-        expected.add(new Tetrahedron(new Point(7.3, 8.9, 4.2), new Point(3.1, 2.0, 3.5),
-                new Point(4.5, 12.2, 13.3), new Point(14.4, 15.5, 16.6)));
+        expected.add(new Tetrahedron(new Point(1.0, 2.0, 3.5), new Point(4.5, 12.2, 0),
+                new Point(14.4, 15.5, 0), new Point(17.7, 18.8, 0)));
     }
 
     @Test
     public void parse() throws IllegalFileInputException{
         ArrayList<String> lines = reader.readFile(FILE_PATH);
-        validator.validate(lines);
+        LineValidator.validate(lines);
         TetrahedronStore store = parser.parse(lines);
         Assert.assertEquals(store, expected);
     }

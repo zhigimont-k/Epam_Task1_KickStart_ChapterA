@@ -4,14 +4,8 @@ import by.epam.task1.part1.entity.Point;
 import by.epam.task1.part1.entity.Tetrahedron;
 import by.epam.task1.part1.matrix.Matrix;
 import by.epam.task1.part1.validation.ParameterValidator;
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
-import java.util.ArrayList;
 
 public class TetrahedronAction {
-    private static Logger logger = LogManager.getLogger();
     private static final int MATRIX_SIZE = 16;
     private static final int MATRIX_ROWS = 4;
     private static final int POINTS_NUMBER = 4;
@@ -53,11 +47,59 @@ public class TetrahedronAction {
             }
         }
         Matrix matrix = new Matrix(coordinates);
-        return matrix.determinant() / 6;
+        double determinant = matrix.determinant();
+        if (determinant < 0) {
+            determinant = -determinant;
+        }
+        return determinant / 6;
     }
 
     public static double calculateVolumeRatio(Tetrahedron tetrahedron) {
-        return 0;
+        Point coordinatePlanePoint = new Point();
+        Point vertex = new Point();
+        if (isBasisParallelOx(tetrahedron)) {
+            vertex = PointAction.findMaximumXPoint(tetrahedron);
+            coordinatePlanePoint.setX(0);
+            coordinatePlanePoint.setY(vertex.getY());
+            coordinatePlanePoint.setZ(vertex.getZ());
+        }
+        if (isBasisParallelOy(tetrahedron)) {
+            vertex = PointAction.findMaximumYPoint(tetrahedron);
+            coordinatePlanePoint.setX(vertex.getX());
+            coordinatePlanePoint.setY(0);
+            coordinatePlanePoint.setZ(vertex.getZ());
+        }
+        if (isBasisParallelOz(tetrahedron)) {
+            vertex = PointAction.findMaximumZPoint(tetrahedron);
+            coordinatePlanePoint.setX(vertex.getX());
+            coordinatePlanePoint.setY(vertex.getY());
+            coordinatePlanePoint.setZ(0);
+        }
+        double similarityFactor = Math.pow(PointAction.calculateDistance(vertex, coordinatePlanePoint), 3);
+        double wholeVolume = calculateVolume(tetrahedron);
+        double truncatedTetrahedronVolume = wholeVolume / similarityFactor;
+        return truncatedTetrahedronVolume / (wholeVolume - truncatedTetrahedronVolume);
+    }
+
+    public static boolean isBasisParallelOx(Tetrahedron tetrahedron) {
+        Point point1 = tetrahedron.get(1);
+        Point point2 = tetrahedron.get(2);
+        Point point3 = tetrahedron.get(3);
+        return point1.getX() == point2.getX() && point2.getX() == point3.getX();
+    }
+
+    public static boolean isBasisParallelOy(Tetrahedron tetrahedron) {
+        Point point1 = tetrahedron.get(1);
+        Point point2 = tetrahedron.get(2);
+        Point point3 = tetrahedron.get(3);
+        return point1.getY() == point2.getY() && point2.getY() == point3.getY();
+    }
+
+    public static boolean isBasisParallelOz(Tetrahedron tetrahedron) {
+        Point point1 = tetrahedron.get(1);
+        Point point2 = tetrahedron.get(2);
+        Point point3 = tetrahedron.get(3);
+        return point1.getZ() == point2.getZ() && point2.getZ() == point3.getZ();
     }
 
     public static boolean isTetrahedron(Object o) {
@@ -66,11 +108,12 @@ public class TetrahedronAction {
     }
 
     public static boolean isBasisOnCoordinatePlane(Tetrahedron tetrahedron) {
-        Point point1 = tetrahedron.get(0);
-        Point point2 = tetrahedron.get(1);
-        Point point3 = tetrahedron.get(2);
-        Point point4 = tetrahedron.get(3);
-        return false;
+        Point point1 = tetrahedron.get(1);
+        Point point2 = tetrahedron.get(2);
+        Point point3 = tetrahedron.get(3);
+        return (point1.getX() == 0 && point2.getX() == 0 && point3.getX() == 0) ||
+                (point1.getY() == 0 && point2.getY() == 0 && point3.getY() == 0) ||
+                (point1.getZ() == 0 && point2.getZ() == 0 && point3.getZ() == 0);
     }
 
 }

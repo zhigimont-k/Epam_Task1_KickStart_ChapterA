@@ -1,4 +1,4 @@
-package by.epam.task1.part1.action.matrix;
+package by.epam.task1.part1.matrix;
 
 public class Matrix {
     private double[][] data;
