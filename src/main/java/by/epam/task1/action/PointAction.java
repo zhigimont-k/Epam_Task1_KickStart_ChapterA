@@ -1,21 +1,22 @@
-package by.epam.task1.part1.action;
+package by.epam.task1.action;
 
-import by.epam.task1.part1.entity.Point;
-import by.epam.task1.part1.entity.Tetrahedron;
+import by.epam.task1.entity.Point;
+import by.epam.task1.entity.Tetrahedron;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class PointAction {
     private static final int POINTS_NUMBER = 4;
 
-    public static double calculateDistance(Point first, Point second) {
+    public double calculateDistance(Point first, Point second) {
         return Math.sqrt(Math.pow(second.getX() - first.getX(), 2) +
                 Math.pow(second.getY() - first.getY(), 2) +
                 Math.pow(second.getZ() - first.getZ(), 2));
     }
 
-    public static Point findMaximumXPoint(Tetrahedron tetrahedron){
-        ArrayList<Point> points = new ArrayList<>();
+    public Point findMaximumXPoint(Tetrahedron tetrahedron){
+        List<Point> points = new ArrayList<>();
         for (int i = 0; i < POINTS_NUMBER; i++){
             points.add(tetrahedron.get(i));
         }
@@ -28,8 +29,8 @@ public class PointAction {
         return max;
     }
 
-    public static Point findMaximumYPoint(Tetrahedron tetrahedron){
-        ArrayList<Point> points = new ArrayList<>();
+    public Point findMaximumYPoint(Tetrahedron tetrahedron){
+        List<Point> points = new ArrayList<>();
         for (int i = 0; i < POINTS_NUMBER; i++){
             points.add(tetrahedron.get(i));
         }
@@ -42,7 +43,7 @@ public class PointAction {
         return max;
     }
 
-    public static Point findMaximumZPoint(Tetrahedron tetrahedron){
+    public Point findMaximumZPoint(Tetrahedron tetrahedron){
         ArrayList<Point> points = new ArrayList<>();
         for (int i = 0; i < POINTS_NUMBER; i++){
             points.add(tetrahedron.get(i));

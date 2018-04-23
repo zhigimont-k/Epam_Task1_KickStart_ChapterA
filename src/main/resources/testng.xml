@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="task1-part1" verbose="1" >
+  <test name="Test" >
+    <classes>
+      <class name="by.epam.task1.action.PointActionTest"/>
+      <class name="by.epam.task1.action.TetrahedronActionTest"/>
+      <class name="by.epam.task1.parser.GeometricalEntityParserTest"/>
+      <class name="by.epam.task1.reader.TextFileReaderTest"/>
+      <class name="by.epam.task1.validator.LineValidatorTest"/>
+      <class name="by.epam.task1.validator.ParameterValidatorTest"/>
+    </classes>
+ </test>
+</suite>

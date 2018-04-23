@@ -1,12 +1,13 @@
-package by.epam.task1.part1.store;
+package by.epam.task1.store;
 
-import by.epam.task1.part1.entity.Tetrahedron;
+import by.epam.task1.entity.Tetrahedron;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 public class TetrahedronStore {
-    private ArrayList<Tetrahedron> store = new ArrayList<>();
+    private List<Tetrahedron> store = new ArrayList<>();
 
     public int size() {
         return store.size();

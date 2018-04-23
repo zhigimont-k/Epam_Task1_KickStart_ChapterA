@@ -1,4 +1,4 @@
-package by.epam.task1.part1.entity;
+package by.epam.task1.entity;
 
 public class Point implements GeometricalEntity{
     private double x;

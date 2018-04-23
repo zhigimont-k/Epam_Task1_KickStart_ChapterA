@@ -1,283 +1,322 @@
-2018-Apr-21 15:35:11.3511 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
-2018-Apr-21 15:35:11.3511 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 1.0 2.0 3.5 4.5
-2018-Apr-21 15:39:47.3947 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
-2018-Apr-21 15:39:47.3947 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 1.0 2.0 3.5 4.5
-2018-Apr-21 15:41:24.4124 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
-2018-Apr-21 15:41:24.4124 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 1.0 2.0 3.5 4.5
-2018-Apr-21 15:41:24.4124 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0;
-2018-Apr-21 15:41:24.4124 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12.1 11.3 6.5 8.1
-2018-Apr-21 15:41:24.4124 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 7.3 8.9 4.2 3.1
-2018-Apr-21 15:41:24.4124 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0
-2018-Apr-21 15:41:24.4124 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12
-2018-Apr-21 15:41:24.4124 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5
-2018-Apr-21 15:41:24.4124 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 6.4 15.9 9.0 4.15
-2018-Apr-21 15:42:23.4223 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
-2018-Apr-21 15:42:23.4223 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 1.0 2.0 3.5 4.5
-2018-Apr-21 15:42:23.4223 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0;
-2018-Apr-21 15:42:23.4223 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12.1 11.3 6.5 8.1
-2018-Apr-21 15:42:23.4223 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 7.3 8.9 4.2 3.1
-2018-Apr-21 15:42:23.4223 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0
-2018-Apr-21 15:42:23.4223 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12
-2018-Apr-21 15:42:23.4223 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5
-2018-Apr-21 15:42:23.4223 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 6.4 15.9 9.0 4.15
-2018-Apr-21 15:47:18.4718 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
-2018-Apr-21 15:47:18.4718 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 1.0 2.0 3.5 4.5
-2018-Apr-21 15:47:18.4718 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0;
-2018-Apr-21 15:47:18.4718 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12.1 11.3 6.5 8.1
-2018-Apr-21 15:47:18.4718 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 7.3 8.9 4.2 3.1
-2018-Apr-21 15:47:18.4718 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0
-2018-Apr-21 15:47:18.4718 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12
-2018-Apr-21 15:47:18.4718 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5
-2018-Apr-21 15:47:18.4718 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 6.4 15.9 9.0 4.15
-2018-Apr-21 15:48:24.4824 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
-2018-Apr-21 15:48:24.4824 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 1.0 2.0 3.5 4.5
-2018-Apr-21 15:48:24.4824 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0;
-2018-Apr-21 15:48:24.4824 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12.1 11.3 6.5 8.1
-2018-Apr-21 15:48:24.4824 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 7.3 8.9 4.2 3.1
-2018-Apr-21 15:48:24.4824 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0
-2018-Apr-21 15:48:24.4824 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12
-2018-Apr-21 15:48:24.4824 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5
-2018-Apr-21 15:48:24.4824 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 6.4 15.9 9.0 4.15
-2018-Apr-21 15:50:19.5019 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
-2018-Apr-21 15:50:42.5042 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
-2018-Apr-21 15:50:42.5042 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0;
-2018-Apr-21 15:50:42.5042 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12
-2018-Apr-21 15:50:42.5042 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5
-2018-Apr-21 19:37:12.3712 ERROR [by.epam.task1.part1.reader.TextFileReader] - Attempt to read empty file.
-2018-Apr-21 19:37:12.3712 ERROR [by.epam.task1.part1.reader.TextFileReader] - Attempt to read non-existent file.
-2018-Apr-21 19:37:12.3712 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 4.15 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-21 19:37:26.3726 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 4.15 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-21 19:37:26.3726 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-21 19:37:26.3726 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 19:37:26.3726 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:02:58.258 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-21 20:02:59.259 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-21 20:02:59.259 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:02:59.259 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:02:59.259 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:03:14.314 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-21 20:03:14.314 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-21 20:03:14.314 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:03:14.314 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:03:14.314 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:03:14.314 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: by.epam.task1.part1.entity.Tetrahedron@47b2615
-2018-Apr-21 20:03:14.314 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: by.epam.task1.part1.entity.Tetrahedron@5e8b00b
-2018-Apr-21 20:03:14.314 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: by.epam.task1.part1.entity.Tetrahedron@555300b
-2018-Apr-21 20:03:14.314 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: by.epam.task1.part1.entity.Tetrahedron@6107c0b
-2018-Apr-21 20:04:03.43 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-21 20:04:03.43 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-21 20:04:03.43 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:04:03.43 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:04:03.43 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:04:03.43 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: by.epam.task1.part1.entity.Tetrahedron@47b2615
-2018-Apr-21 20:04:03.43 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: by.epam.task1.part1.entity.Tetrahedron@5e8b00b
-2018-Apr-21 20:04:03.43 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: by.epam.task1.part1.entity.Tetrahedron@555300b
-2018-Apr-21 20:04:03.43 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: by.epam.task1.part1.entity.Tetrahedron@6107c0b
-2018-Apr-21 20:05:12.512 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-21 20:05:12.512 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-21 20:05:12.512 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:05:12.512 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:05:12.512 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:05:12.512 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 2.0, 3.5), Point(3.5, 4.5, 12.2), Point(12.2, 13.3, 14.4), Point(14.4, 15.5, 16.6), Point(16.6, 17.7, 18.8)])
-2018-Apr-21 20:05:12.512 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 11.3, 6.5), Point(6.5, 8.1, 2.0), Point(2.0, 3.5, 4.5), Point(4.5, 12.2, 13.3), Point(13.3, 14.4, 15.5)])
-2018-Apr-21 20:05:12.512 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 8.9, 4.2), Point(4.2, 3.1, 2.0), Point(2.0, 3.5, 4.5), Point(4.5, 12.2, 13.3), Point(13.3, 14.4, 15.5)])
-2018-Apr-21 20:05:12.512 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(6.4, 15.9, 9.0), Point(9.0, 6.4, 15.9), Point(15.9, 9.0, 4.5), Point(4.5, 12.2, 13.3), Point(13.3, 14.4, 15.5)])
-2018-Apr-21 20:07:57.757 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-21 20:07:57.757 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-21 20:07:57.757 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:07:57.757 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:07:57.757 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:07:58.758 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 0.0, 0.0), Point(4.5, 0.0, 0.0), Point(14.4, 0.0, 0.0), Point(17.7, 0.0, 0.0)])
-2018-Apr-21 20:07:58.758 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 0.0, 0.0), Point(8.1, 0.0, 0.0), Point(4.5, 0.0, 0.0), Point(14.4, 0.0, 0.0)])
-2018-Apr-21 20:07:58.758 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 0.0, 0.0), Point(3.1, 0.0, 0.0), Point(4.5, 0.0, 0.0), Point(14.4, 0.0, 0.0)])
-2018-Apr-21 20:07:58.758 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:10:21.1021 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-21 20:10:21.1021 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-21 20:10:21.1021 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:10:21.1021 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:10:21.1021 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:10:21.1021 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 2.0, 3.5), Point(3.5, 4.5, 12.2), Point(12.2, 13.3, 14.4), Point(14.4, 15.5, 16.6), Point(16.6, 17.7, 18.8)])
-2018-Apr-21 20:10:21.1021 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 11.3, 6.5), Point(6.5, 8.1, 2.0), Point(2.0, 3.5, 4.5), Point(4.5, 12.2, 13.3), Point(13.3, 14.4, 15.5)])
-2018-Apr-21 20:10:21.1021 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 8.9, 4.2), Point(4.2, 3.1, 2.0), Point(2.0, 3.5, 4.5), Point(4.5, 12.2, 13.3), Point(13.3, 14.4, 15.5)])
-2018-Apr-21 20:10:21.1021 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(6.4, 15.9, 9.0), Point(9.0, 6.4, 15.9), Point(15.9, 9.0, 4.5), Point(4.5, 12.2, 13.3), Point(13.3, 14.4, 15.5)])
-2018-Apr-21 20:12:02.122 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-21 20:12:02.122 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-21 20:12:02.122 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:12:02.122 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:12:02.122 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:12:02.122 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([])
-2018-Apr-21 20:12:02.122 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([])
-2018-Apr-21 20:12:02.122 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([])
-2018-Apr-21 20:12:02.122 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([])
-2018-Apr-21 20:15:52.1552 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-21 20:15:52.1552 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-21 20:15:52.1552 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:15:52.1552 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:15:52.1552 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:15:52.1552 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6), Point(17.7, 18.8, 19.9)])
-2018-Apr-21 20:15:52.1552 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 11.3, 6.5), Point(8.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
-2018-Apr-21 20:15:52.1552 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 8.9, 4.2), Point(3.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
-2018-Apr-21 20:15:52.1552 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:20:34.2034 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-21 20:20:34.2034 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-21 20:20:34.2034 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:20:34.2034 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:20:34.2034 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:20:34.2034 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6), Point(17.7, 18.8, 19.9)])
-2018-Apr-21 20:20:34.2034 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 11.3, 6.5), Point(8.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
-2018-Apr-21 20:20:34.2034 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 8.9, 4.2), Point(3.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
-2018-Apr-21 20:20:34.2034 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:27:55.2755 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-21 20:27:55.2755 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-21 20:27:55.2755 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:27:55.2755 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:27:55.2755 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:27:55.2755 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6), Point(17.7, 18.8, 19.9)])
-2018-Apr-21 20:27:55.2755 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 11.3, 6.5), Point(8.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
-2018-Apr-21 20:27:55.2755 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 8.9, 4.2), Point(3.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
-2018-Apr-21 20:27:55.2755 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:31:21.3121 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-21 20:31:21.3121 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-21 20:31:21.3121 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:31:21.3121 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:31:21.3121 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-21 20:31:21.3121 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6), Point(17.7, 18.8, 19.9)])
-2018-Apr-21 20:31:21.3121 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 11.3, 6.5), Point(8.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
-2018-Apr-21 20:31:21.3121 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 8.9, 4.2), Point(3.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
-2018-Apr-21 20:31:21.3121 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 17:09:57.957 DEBUG [by.epam.task1.part1.action.TetrahedronAction] - [[1.0  3.0  1.0  2.0 ]
+2018-Apr-21 15:35:11.3511 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
+2018-Apr-21 15:35:11.3511 INFO  [LineValidator] - The following line was omitted: 1.0 2.0 3.5 4.5
+2018-Apr-21 15:39:47.3947 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
+2018-Apr-21 15:39:47.3947 INFO  [LineValidator] - The following line was omitted: 1.0 2.0 3.5 4.5
+2018-Apr-21 15:41:24.4124 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
+2018-Apr-21 15:41:24.4124 INFO  [LineValidator] - The following line was omitted: 1.0 2.0 3.5 4.5
+2018-Apr-21 15:41:24.4124 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0;
+2018-Apr-21 15:41:24.4124 INFO  [LineValidator] - The following line was omitted: 12.1 11.3 6.5 8.1
+2018-Apr-21 15:41:24.4124 INFO  [LineValidator] - The following line was omitted: 7.3 8.9 4.2 3.1
+2018-Apr-21 15:41:24.4124 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0
+2018-Apr-21 15:41:24.4124 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12
+2018-Apr-21 15:41:24.4124 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5
+2018-Apr-21 15:41:24.4124 INFO  [LineValidator] - The following line was omitted: 6.4 15.9 9.0 4.15
+2018-Apr-21 15:42:23.4223 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
+2018-Apr-21 15:42:23.4223 INFO  [LineValidator] - The following line was omitted: 1.0 2.0 3.5 4.5
+2018-Apr-21 15:42:23.4223 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0;
+2018-Apr-21 15:42:23.4223 INFO  [LineValidator] - The following line was omitted: 12.1 11.3 6.5 8.1
+2018-Apr-21 15:42:23.4223 INFO  [LineValidator] - The following line was omitted: 7.3 8.9 4.2 3.1
+2018-Apr-21 15:42:23.4223 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0
+2018-Apr-21 15:42:23.4223 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12
+2018-Apr-21 15:42:23.4223 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5
+2018-Apr-21 15:42:23.4223 INFO  [LineValidator] - The following line was omitted: 6.4 15.9 9.0 4.15
+2018-Apr-21 15:47:18.4718 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
+2018-Apr-21 15:47:18.4718 INFO  [LineValidator] - The following line was omitted: 1.0 2.0 3.5 4.5
+2018-Apr-21 15:47:18.4718 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0;
+2018-Apr-21 15:47:18.4718 INFO  [LineValidator] - The following line was omitted: 12.1 11.3 6.5 8.1
+2018-Apr-21 15:47:18.4718 INFO  [LineValidator] - The following line was omitted: 7.3 8.9 4.2 3.1
+2018-Apr-21 15:47:18.4718 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0
+2018-Apr-21 15:47:18.4718 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12
+2018-Apr-21 15:47:18.4718 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5
+2018-Apr-21 15:47:18.4718 INFO  [LineValidator] - The following line was omitted: 6.4 15.9 9.0 4.15
+2018-Apr-21 15:48:24.4824 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
+2018-Apr-21 15:48:24.4824 INFO  [LineValidator] - The following line was omitted: 1.0 2.0 3.5 4.5
+2018-Apr-21 15:48:24.4824 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0;
+2018-Apr-21 15:48:24.4824 INFO  [LineValidator] - The following line was omitted: 12.1 11.3 6.5 8.1
+2018-Apr-21 15:48:24.4824 INFO  [LineValidator] - The following line was omitted: 7.3 8.9 4.2 3.1
+2018-Apr-21 15:48:24.4824 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0
+2018-Apr-21 15:48:24.4824 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12
+2018-Apr-21 15:48:24.4824 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5
+2018-Apr-21 15:48:24.4824 INFO  [LineValidator] - The following line was omitted: 6.4 15.9 9.0 4.15
+2018-Apr-21 15:50:19.5019 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
+2018-Apr-21 15:50:42.5042 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5, 9.0 11.0 8.0 7.0;, 12.1 11.3 6.5 8.1, 7.3 8.9 4.2 3.1, 10,2 6,4 8.1 12.0, o4.5 8.0 7.5 6.12, 12;2 14.0 18,4 12,5, 6.4 15.9 9.0 4.15]
+2018-Apr-21 15:50:42.5042 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0;
+2018-Apr-21 15:50:42.5042 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12
+2018-Apr-21 15:50:42.5042 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5
+2018-Apr-21 19:37:12.3712 ERROR [TextFileReader] - Attempt to read empty file.
+2018-Apr-21 19:37:12.3712 ERROR [TextFileReader] - Attempt to read non-existent file.
+2018-Apr-21 19:37:12.3712 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 4.15 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-21 19:37:26.3726 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 4.15 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-21 19:37:26.3726 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-21 19:37:26.3726 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 19:37:26.3726 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:02:58.258 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-21 20:02:59.259 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-21 20:02:59.259 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:02:59.259 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:02:59.259 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:03:14.314 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-21 20:03:14.314 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-21 20:03:14.314 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:03:14.314 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:03:14.314 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:03:14.314 INFO  [GeometricalEntityParser] - Pyramid was added to store: Tetrahedron@47b2615
+2018-Apr-21 20:03:14.314 INFO  [GeometricalEntityParser] - Pyramid was added to store: Tetrahedron@5e8b00b
+2018-Apr-21 20:03:14.314 INFO  [GeometricalEntityParser] - Pyramid was added to store: Tetrahedron@555300b
+2018-Apr-21 20:03:14.314 INFO  [GeometricalEntityParser] - Pyramid was added to store: Tetrahedron@6107c0b
+2018-Apr-21 20:04:03.43 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-21 20:04:03.43 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-21 20:04:03.43 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:04:03.43 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:04:03.43 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:04:03.43 INFO  [GeometricalEntityParser] - Pyramid was added to store: Tetrahedron@47b2615
+2018-Apr-21 20:04:03.43 INFO  [GeometricalEntityParser] - Pyramid was added to store: Tetrahedron@5e8b00b
+2018-Apr-21 20:04:03.43 INFO  [GeometricalEntityParser] - Pyramid was added to store: Tetrahedron@555300b
+2018-Apr-21 20:04:03.43 INFO  [GeometricalEntityParser] - Pyramid was added to store: Tetrahedron@6107c0b
+2018-Apr-21 20:05:12.512 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-21 20:05:12.512 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-21 20:05:12.512 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:05:12.512 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:05:12.512 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:05:12.512 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 2.0, 3.5), Point(3.5, 4.5, 12.2), Point(12.2, 13.3, 14.4), Point(14.4, 15.5, 16.6), Point(16.6, 17.7, 18.8)])
+2018-Apr-21 20:05:12.512 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 11.3, 6.5), Point(6.5, 8.1, 2.0), Point(2.0, 3.5, 4.5), Point(4.5, 12.2, 13.3), Point(13.3, 14.4, 15.5)])
+2018-Apr-21 20:05:12.512 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 8.9, 4.2), Point(4.2, 3.1, 2.0), Point(2.0, 3.5, 4.5), Point(4.5, 12.2, 13.3), Point(13.3, 14.4, 15.5)])
+2018-Apr-21 20:05:12.512 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(6.4, 15.9, 9.0), Point(9.0, 6.4, 15.9), Point(15.9, 9.0, 4.5), Point(4.5, 12.2, 13.3), Point(13.3, 14.4, 15.5)])
+2018-Apr-21 20:07:57.757 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-21 20:07:57.757 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-21 20:07:57.757 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:07:57.757 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:07:57.757 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:07:58.758 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 0.0, 0.0), Point(4.5, 0.0, 0.0), Point(14.4, 0.0, 0.0), Point(17.7, 0.0, 0.0)])
+2018-Apr-21 20:07:58.758 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 0.0, 0.0), Point(8.1, 0.0, 0.0), Point(4.5, 0.0, 0.0), Point(14.4, 0.0, 0.0)])
+2018-Apr-21 20:07:58.758 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 0.0, 0.0), Point(3.1, 0.0, 0.0), Point(4.5, 0.0, 0.0), Point(14.4, 0.0, 0.0)])
+2018-Apr-21 20:07:58.758 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:10:21.1021 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-21 20:10:21.1021 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-21 20:10:21.1021 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:10:21.1021 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:10:21.1021 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:10:21.1021 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 2.0, 3.5), Point(3.5, 4.5, 12.2), Point(12.2, 13.3, 14.4), Point(14.4, 15.5, 16.6), Point(16.6, 17.7, 18.8)])
+2018-Apr-21 20:10:21.1021 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 11.3, 6.5), Point(6.5, 8.1, 2.0), Point(2.0, 3.5, 4.5), Point(4.5, 12.2, 13.3), Point(13.3, 14.4, 15.5)])
+2018-Apr-21 20:10:21.1021 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 8.9, 4.2), Point(4.2, 3.1, 2.0), Point(2.0, 3.5, 4.5), Point(4.5, 12.2, 13.3), Point(13.3, 14.4, 15.5)])
+2018-Apr-21 20:10:21.1021 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(6.4, 15.9, 9.0), Point(9.0, 6.4, 15.9), Point(15.9, 9.0, 4.5), Point(4.5, 12.2, 13.3), Point(13.3, 14.4, 15.5)])
+2018-Apr-21 20:12:02.122 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-21 20:12:02.122 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-21 20:12:02.122 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:12:02.122 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:12:02.122 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:12:02.122 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([])
+2018-Apr-21 20:12:02.122 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([])
+2018-Apr-21 20:12:02.122 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([])
+2018-Apr-21 20:12:02.122 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([])
+2018-Apr-21 20:15:52.1552 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-21 20:15:52.1552 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-21 20:15:52.1552 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:15:52.1552 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:15:52.1552 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:15:52.1552 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6), Point(17.7, 18.8, 19.9)])
+2018-Apr-21 20:15:52.1552 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 11.3, 6.5), Point(8.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
+2018-Apr-21 20:15:52.1552 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 8.9, 4.2), Point(3.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
+2018-Apr-21 20:15:52.1552 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:20:34.2034 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-21 20:20:34.2034 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-21 20:20:34.2034 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:20:34.2034 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:20:34.2034 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:20:34.2034 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6), Point(17.7, 18.8, 19.9)])
+2018-Apr-21 20:20:34.2034 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 11.3, 6.5), Point(8.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
+2018-Apr-21 20:20:34.2034 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 8.9, 4.2), Point(3.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
+2018-Apr-21 20:20:34.2034 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:27:55.2755 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-21 20:27:55.2755 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-21 20:27:55.2755 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:27:55.2755 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:27:55.2755 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:27:55.2755 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6), Point(17.7, 18.8, 19.9)])
+2018-Apr-21 20:27:55.2755 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 11.3, 6.5), Point(8.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
+2018-Apr-21 20:27:55.2755 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 8.9, 4.2), Point(3.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
+2018-Apr-21 20:27:55.2755 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:31:21.3121 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-21 20:31:21.3121 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-21 20:31:21.3121 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:31:21.3121 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:31:21.3121 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-21 20:31:21.3121 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6), Point(17.7, 18.8, 19.9)])
+2018-Apr-21 20:31:21.3121 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(12.1, 11.3, 6.5), Point(8.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
+2018-Apr-21 20:31:21.3121 INFO  [GeometricalEntityParser] - Pyramid was added to store: Pyramid([Point(7.3, 8.9, 4.2), Point(3.1, 2.0, 3.5), Point(4.5, 12.2, 13.3), Point(14.4, 15.5, 16.6)])
+2018-Apr-21 20:31:21.3121 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 17:09:57.957 DEBUG [TetrahedronAction] - [[1.0  3.0  1.0  2.0 ]
  [1.0  3.0  1.0  2.0 ]
  [1.0  3.0  1.0  2.0 ]
  [1.0  3.0  1.0  2.0 ]]
 
-2018-Apr-22 17:10:29.1029 DEBUG [by.epam.task1.part1.action.TetrahedronAction] - 
+2018-Apr-22 17:10:29.1029 DEBUG [TetrahedronAction] -
 [[1.0  3.0  1.0  2.0 ]
  [1.0  3.0  1.0  2.0 ]
  [1.0  3.0  1.0  2.0 ]
  [1.0  3.0  1.0  2.0 ]]
 
-2018-Apr-22 17:11:26.1126 DEBUG [by.epam.task1.part1.action.TetrahedronAction] - 
+2018-Apr-22 17:11:26.1126 DEBUG [TetrahedronAction] -
 [[1.0  0.0  1.0  2.0 ]
  [1.0  3.0  3.0  2.0 ]
  [1.0  6.0  1.0  4.0 ]
  [1.0  9.0  3.0  2.0 ]]
 
-2018-Apr-22 17:12:33.1233 DEBUG [by.epam.task1.part1.action.TetrahedronAction] - 
-[[1.0  0.0  1.0  2.0 ]
- [1.0  3.0  3.0  2.0 ]
- [1.0  6.0  1.0  4.0 ]
- [1.0  9.0  3.0  2.0 ]]
-
-Determinant: 24.0
-2018-Apr-22 17:13:33.1333 DEBUG [by.epam.task1.part1.action.TetrahedronAction] - 
+2018-Apr-22 17:12:33.1233 DEBUG [TetrahedronAction] -
 [[1.0  0.0  1.0  2.0 ]
  [1.0  3.0  3.0  2.0 ]
  [1.0  6.0  1.0  4.0 ]
  [1.0  9.0  3.0  2.0 ]]
 
 Determinant: 24.0
-2018-Apr-22 19:45:14.4514 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-22 19:45:14.4514 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-22 19:45:14.4514 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:45:14.4514 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:45:14.4514 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:45:14.4514 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-22 19:45:14.4514 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:45:14.4514 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:45:14.4514 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:47:20.4720 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 0 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-22 19:47:20.4720 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-22 19:47:20.4720 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:47:20.4720 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:47:20.4720 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:47:20.4720 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 1.0 2.0 0 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0
-2018-Apr-22 19:47:20.4720 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:47:20.4720 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:47:20.4720 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:48:08.488 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-22 19:48:08.488 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-22 19:48:08.488 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:48:08.488 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:48:08.488 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:48:08.488 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
-2018-Apr-22 19:48:08.488 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:48:08.488 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:48:08.488 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:49:59.4959 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-22 19:49:59.4959 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-22 19:49:59.4959 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:49:59.4959 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:49:59.4959 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:49:59.4959 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
-2018-Apr-22 19:49:59.4959 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:49:59.4959 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:49:59.4959 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:51:13.5113 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-22 19:51:13.5113 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-22 19:51:13.5113 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:51:13.5113 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:51:13.5113 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:51:13.5113 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
-2018-Apr-22 19:51:13.5113 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:51:13.5113 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:51:13.5113 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:52:56.5256 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-22 19:52:56.5256 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-22 19:52:56.5256 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:52:56.5256 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:52:56.5256 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:52:56.5256 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
-2018-Apr-22 19:52:56.5256 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:52:56.5256 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:52:56.5256 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:52:56.5256 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Elements in store: TetrahedronStore{[]}
-2018-Apr-22 19:53:30.5330 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-22 19:53:30.5330 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-22 19:53:30.5330 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:53:30.5330 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:53:30.5330 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:53:30.5330 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
-2018-Apr-22 19:53:30.5330 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:53:30.5330 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 19:53:30.5330 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 20:13:20.1320 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-22 20:13:20.1320 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-22 20:13:20.1320 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 20:13:20.1320 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 20:13:20.1320 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 20:13:20.1320 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
-2018-Apr-22 20:13:20.1320 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 20:13:20.1320 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 20:13:20.1320 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 20:24:37.2437 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-22 20:24:38.2438 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-22 20:24:38.2438 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 20:24:38.2438 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 20:24:38.2438 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 20:24:38.2438 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
-2018-Apr-22 20:24:38.2438 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 20:24:38.2438 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 20:24:38.2438 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 21:06:18.618 DEBUG [by.epam.task1.part1.action.TetrahedronAction] - SM: 0.0
-2018-Apr-22 21:07:43.743 DEBUG [by.epam.task1.part1.action.TetrahedronAction] - Distance: 0.0
-2018-Apr-22 21:07:43.743 DEBUG [by.epam.task1.part1.action.TetrahedronAction] - SM: 0.0
-2018-Apr-22 21:08:31.831 DEBUG [by.epam.task1.part1.action.TetrahedronAction] - Distance: 0.0
-2018-Apr-22 21:08:31.831 DEBUG [by.epam.task1.part1.action.TetrahedronAction] - SM: 0.0
-2018-Apr-22 21:16:45.1645 DEBUG [by.epam.task1.part1.action.TetrahedronAction] - vertex: Point(0.0, 1.0, 4.0)
-2018-Apr-22 21:16:45.1645 DEBUG [by.epam.task1.part1.action.TetrahedronAction] - Distance: 4.0
-2018-Apr-22 21:16:45.1645 DEBUG [by.epam.task1.part1.action.TetrahedronAction] - SM: 64.0
-2018-Apr-22 21:37:54.3754 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-22 21:37:54.3754 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
-2018-Apr-22 21:37:54.3754 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 21:37:54.3754 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 21:37:54.3754 INFO  [by.epam.task1.part1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 21:37:54.3754 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
-2018-Apr-22 21:37:54.3754 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 21:37:54.3754 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 21:37:54.3754 INFO  [by.epam.task1.part1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
-2018-Apr-22 21:38:28.3828 ERROR [by.epam.task1.part1.reader.TextFileReader] - Attempt to read non-existent file.
-2018-Apr-22 21:38:28.3828 ERROR [by.epam.task1.part1.reader.TextFileReader] - Attempt to read empty file.
-2018-Apr-22 21:38:28.3828 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-22 21:40:13.4013 INFO  [by.epam.task1.part1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
-2018-Apr-22 21:40:13.4013 ERROR [by.epam.task1.part1.reader.TextFileReader] - Attempt to read empty file.
-2018-Apr-22 21:40:13.4013 ERROR [by.epam.task1.part1.reader.TextFileReader] - Attempt to read non-existent file.
+2018-Apr-22 17:13:33.1333 DEBUG [TetrahedronAction] -
+[[1.0  0.0  1.0  2.0 ]
+ [1.0  3.0  3.0  2.0 ]
+ [1.0  6.0  1.0  4.0 ]
+ [1.0  9.0  3.0  2.0 ]]
+
+Determinant: 24.0
+2018-Apr-22 19:45:14.4514 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-22 19:45:14.4514 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-22 19:45:14.4514 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:45:14.4514 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:45:14.4514 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:45:14.4514 INFO  [GeometricalEntityParser] - The following data is incorrect: 1.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-22 19:45:14.4514 INFO  [GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:45:14.4514 INFO  [GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:45:14.4514 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:47:20.4720 INFO  [TextFileReader] - Lines read: [1.0 2.0 0 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-22 19:47:20.4720 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-22 19:47:20.4720 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:47:20.4720 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:47:20.4720 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:47:20.4720 INFO  [GeometricalEntityParser] - The following data is incorrect: 1.0 2.0 0 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0
+2018-Apr-22 19:47:20.4720 INFO  [GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:47:20.4720 INFO  [GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:47:20.4720 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:48:08.488 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-22 19:48:08.488 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-22 19:48:08.488 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:48:08.488 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:48:08.488 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:48:08.488 INFO  [GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
+2018-Apr-22 19:48:08.488 INFO  [GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:48:08.488 INFO  [GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:48:08.488 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:49:59.4959 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-22 19:49:59.4959 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-22 19:49:59.4959 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:49:59.4959 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:49:59.4959 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:49:59.4959 INFO  [GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
+2018-Apr-22 19:49:59.4959 INFO  [GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:49:59.4959 INFO  [GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:49:59.4959 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:51:13.5113 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-22 19:51:13.5113 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-22 19:51:13.5113 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:51:13.5113 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:51:13.5113 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:51:13.5113 INFO  [GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
+2018-Apr-22 19:51:13.5113 INFO  [GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:51:13.5113 INFO  [GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:51:13.5113 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:52:56.5256 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-22 19:52:56.5256 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-22 19:52:56.5256 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:52:56.5256 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:52:56.5256 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:52:56.5256 INFO  [GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
+2018-Apr-22 19:52:56.5256 INFO  [GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:52:56.5256 INFO  [GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:52:56.5256 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:52:56.5256 INFO  [GeometricalEntityParser] - Elements in store: TetrahedronStore{[]}
+2018-Apr-22 19:53:30.5330 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-22 19:53:30.5330 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-22 19:53:30.5330 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:53:30.5330 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:53:30.5330 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:53:30.5330 INFO  [GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
+2018-Apr-22 19:53:30.5330 INFO  [GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:53:30.5330 INFO  [GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 19:53:30.5330 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 20:13:20.1320 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-22 20:13:20.1320 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-22 20:13:20.1320 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 20:13:20.1320 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 20:13:20.1320 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 20:13:20.1320 INFO  [GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
+2018-Apr-22 20:13:20.1320 INFO  [GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 20:13:20.1320 INFO  [GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 20:13:20.1320 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 20:24:37.2437 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-22 20:24:38.2438 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-22 20:24:38.2438 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 20:24:38.2438 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 20:24:38.2438 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 20:24:38.2438 INFO  [GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
+2018-Apr-22 20:24:38.2438 INFO  [GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 20:24:38.2438 INFO  [GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 20:24:38.2438 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 21:06:18.618 DEBUG [TetrahedronAction] - SM: 0.0
+2018-Apr-22 21:07:43.743 DEBUG [TetrahedronAction] - Distance: 0.0
+2018-Apr-22 21:07:43.743 DEBUG [TetrahedronAction] - SM: 0.0
+2018-Apr-22 21:08:31.831 DEBUG [TetrahedronAction] - Distance: 0.0
+2018-Apr-22 21:08:31.831 DEBUG [TetrahedronAction] - SM: 0.0
+2018-Apr-22 21:16:45.1645 DEBUG [TetrahedronAction] - vertex: Point(0.0, 1.0, 4.0)
+2018-Apr-22 21:16:45.1645 DEBUG [TetrahedronAction] - Distance: 4.0
+2018-Apr-22 21:16:45.1645 DEBUG [TetrahedronAction] - SM: 64.0
+2018-Apr-22 21:37:54.3754 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-22 21:37:54.3754 INFO  [LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-22 21:37:54.3754 INFO  [LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 21:37:54.3754 INFO  [LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 21:37:54.3754 INFO  [LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 21:37:54.3754 INFO  [GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
+2018-Apr-22 21:37:54.3754 INFO  [GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 21:37:54.3754 INFO  [GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 21:37:54.3754 INFO  [GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-22 21:38:28.3828 ERROR [TextFileReader] - Attempt to read non-existent file.
+2018-Apr-22 21:38:28.3828 ERROR [TextFileReader] - Attempt to read empty file.
+2018-Apr-22 21:38:28.3828 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-22 21:40:13.4013 INFO  [TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-22 21:40:13.4013 ERROR [TextFileReader] - Attempt to read empty file.
+2018-Apr-22 21:40:13.4013 ERROR [TextFileReader] - Attempt to read non-existent file.
+2018-Apr-23 23:02:17.217 INFO  [by.epam.task1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-23 23:02:17.217 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-23 23:02:17.217 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:02:17.217 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:02:17.217 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:02:17.217 INFO  [by.epam.task1.parser.GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
+2018-Apr-23 23:02:17.217 INFO  [by.epam.task1.parser.GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:02:17.217 INFO  [by.epam.task1.parser.GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:02:17.217 INFO  [by.epam.task1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:07:32.732 ERROR [by.epam.task1.reader.TextFileReader] - Attempt to read empty file.
+2018-Apr-23 23:07:32.732 ERROR [by.epam.task1.reader.TextFileReader] - Attempt to read non-existent file.
+2018-Apr-23 23:07:32.732 INFO  [by.epam.task1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-23 23:10:07.107 INFO  [by.epam.task1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-23 23:10:07.107 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-23 23:10:07.107 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:10:07.107 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:10:07.107 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:11:14.1114 INFO  [by.epam.task1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-23 23:11:14.1114 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-23 23:11:14.1114 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:11:14.1114 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:11:14.1114 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.parser.GeometricalEntityParser] - Tetrahedron was added to store: Tetrahedron([Point(1.0, 2.0, 3.5), Point(4.5, 12.2, 0.0), Point(14.4, 15.5, 0.0), Point(17.7, 18.8, 0.0)])
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.parser.GeometricalEntityParser] - The following data is incorrect: 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.parser.GeometricalEntityParser] - The following data is incorrect: 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.parser.GeometricalEntityParser] - The following data is incorrect: 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:13:31.1331 ERROR [by.epam.task1.reader.TextFileReader] - Attempt to read empty file.
+2018-Apr-23 23:13:31.1331 ERROR [by.epam.task1.reader.TextFileReader] - Attempt to read non-existent file.
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.reader.TextFileReader] - Lines read: [1.0 2.0 3.5 4.5 12.2 0 14.4 15.5 0 17.7 18.8 0, 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9, 12.1 11.3 6.5 8.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 7.3 8.9 4.2 3.1 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6, 6.4 15.9 9.0 6.4 15.9 9.0 4.5 12.2 13.3 14.4 15.5 16.6]
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 9.0 11.0 8.0 7.0; 13.3 14.4 15.5 16.6 17.7 18.8 19.9
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 10,2 6,4 8.1 12.0 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: o4.5 8.0 7.5 6.12 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6
+2018-Apr-23 23:13:31.1331 INFO  [by.epam.task1.validation.LineValidator] - The following line was omitted: 12;2 14.0 18,4 12,5 2.0 3.5 4.5 12.2 13.3 14.4 15.5 16.6

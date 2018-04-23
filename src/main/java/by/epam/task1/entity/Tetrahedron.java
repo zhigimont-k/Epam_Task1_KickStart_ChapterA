@@ -1,11 +1,12 @@
-package by.epam.task1.part1.entity;
+package by.epam.task1.entity;
 
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 public class Tetrahedron implements GeometricalEntity{
-    private ArrayList<Point> points = new ArrayList<>();
+    private List<Point> points = new ArrayList<>();
 
     public Tetrahedron() {
     }
@@ -20,10 +21,6 @@ public class Tetrahedron implements GeometricalEntity{
 
     public Point get(int index) {
         return points.get(index);
-    }
-
-    public Point set(int index, Point element) {
-        return points.set(index, element);
     }
 
     public void setPoints(Collection<? extends Point> c){

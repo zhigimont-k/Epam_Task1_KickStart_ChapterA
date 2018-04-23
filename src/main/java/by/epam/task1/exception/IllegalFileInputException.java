@@ -1,4 +1,4 @@
-package by.epam.task1.part1.exception;
+package by.epam.task1.exception;
 
 public class IllegalFileInputException extends Exception {
     public IllegalFileInputException() {
