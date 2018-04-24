@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class Tetrahedron implements GeometricalEntity{
+public class Tetrahedron {
     private List<Point> points = new ArrayList<>();
 
     public Tetrahedron() {
@@ -18,6 +18,9 @@ public class Tetrahedron implements GeometricalEntity{
         points.add(point4);
     }
 
+    public void setPoint(int index, Point point){
+        points.set(index, point);
+    }
 
     public Point get(int index) {
         return points.get(index);

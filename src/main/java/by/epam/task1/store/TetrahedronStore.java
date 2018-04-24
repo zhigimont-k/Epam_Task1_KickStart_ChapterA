@@ -3,42 +3,17 @@ package by.epam.task1.store;
 import by.epam.task1.entity.Tetrahedron;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 public class TetrahedronStore {
-    private List<Tetrahedron> store = new ArrayList<>();
+    private List<Tetrahedron> store;
 
-    public int size() {
-        return store.size();
-    }
-
-    public boolean isEmpty() {
-        return store.isEmpty();
-    }
-
-    public Tetrahedron get(int index) {
-        return store.get(index);
-    }
-
-    public Tetrahedron set(int index, Tetrahedron element) {
-        return store.set(index, element);
+    public TetrahedronStore() {
+        store = new ArrayList<>();
     }
 
     public boolean add(Tetrahedron tetrahedron) {
         return store.add(tetrahedron);
-    }
-
-    public Tetrahedron remove(int index) {
-        return store.remove(index);
-    }
-
-    public void clear() {
-        store.clear();
-    }
-
-    public boolean addAll(Collection<? extends Tetrahedron> c) {
-        return store.addAll(c);
     }
 
     @Override
@@ -51,7 +26,7 @@ public class TetrahedronStore {
         }
         TetrahedronStore other = (TetrahedronStore) o;
         int arraySize = store.size();
-        if (store.size() != other.store.size()){
+        if (arraySize != other.store.size()) {
             return false;
         }
         for (int i = 0; i < arraySize; i++) {

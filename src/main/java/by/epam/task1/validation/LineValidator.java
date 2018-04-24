@@ -8,17 +8,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LineValidator {
-    private static final String PATTERN = "(^(((-))?((\\d+((\\.)\\d+)?)\\s){11}(((-))?((\\d+((\\.|,)\\d+)?))))$)";
     private static Logger logger = LogManager.getLogger();
+    private static final String PATTERN = "(^(((-))?((\\d+((\\.)\\d+)?)\\s){11}(((-))?((\\d+((\\.|,)\\d+)?))))$)";
 
-    public void validate(List<String> lines) {
-        List<String> wrongLines = new ArrayList<>();
+    public List<String> validate(List<String> lines) {
+        List<String> correctLines = new ArrayList<>();
         for (String line : lines) {
-            if (!line.matches(PATTERN)) {
+            if (line.matches(PATTERN)) {
+                correctLines.add(line);
+            } else {
                 logger.log(Level.INFO, "The following line was omitted: " + line);
-                wrongLines.add(line);
             }
         }
-        lines.removeAll(wrongLines);
+        return correctLines;
     }
 }

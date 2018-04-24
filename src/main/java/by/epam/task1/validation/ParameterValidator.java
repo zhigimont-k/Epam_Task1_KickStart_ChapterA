@@ -3,7 +3,7 @@ package by.epam.task1.validation;
 import by.epam.task1.action.TetrahedronAction;
 import by.epam.task1.entity.Point;
 import by.epam.task1.entity.Tetrahedron;
-import by.epam.task1.matrix.Matrix;
+import by.epam.task1.matrix.MatrixDeterminantCalculator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,11 +19,11 @@ public class ParameterValidator {
         for (int i = 0; i < POINTS_NUMBER; i++) {
             points.add(tetrahedron.get(i));
         }
-        return pointsAreUnique(points) && pointsFormPlane(points) &&
-                arePointsInDifferentPlanes(points) && isBasisParallelCoordinatePlane(tetrahedron);
+        return checkPointsAreUnique(points) && checkPointsFormPlane(points) &&
+                checkPointsInDifferentPlanes(points) && checkBasisParallelCoordinatePlane(tetrahedron);
     }
 
-    private boolean pointsAreUnique(List<Point> points) {
+    private boolean checkPointsAreUnique(List<Point> points) {
         List<Point> foundPoints = new ArrayList<>();
         for (Point point : points) {
             if (foundPoints.contains(point)) {
@@ -34,17 +34,16 @@ public class ParameterValidator {
         return true;
     }
 
-    private boolean pointsFormPlane(List<Point> points) {
+    private boolean checkPointsFormPlane(List<Point> points) {
         double[][] data = new double[POINT_MATRIX_ROWS][POINT_MATRIX_ROWS];
         data[0][0] = points.get(2).getX() - points.get(1).getX();
         data[0][1] = points.get(2).getY() - points.get(1).getY();
         data[1][0] = points.get(3).getX() - points.get(1).getY();
         data[1][1] = points.get(3).getY() - points.get(1).getY();
-        Matrix matrix = new Matrix(data);
-        return matrix.determinant() != 0;
+        return new MatrixDeterminantCalculator(data).determinant() != 0;
     }
 
-    private boolean arePointsInDifferentPlanes(List<Point> points) {
+    private boolean checkPointsInDifferentPlanes(List<Point> points) {
         double[][] coordinates = new double[PLANE_MATRIX_ROWS][PLANE_MATRIX_ROWS];
         for (int i = 0; i < PLANE_MATRIX_ROWS; i++) {
             for (int j = 0; j < PLANE_MATRIX_ROWS; j++) {
@@ -62,14 +61,13 @@ public class ParameterValidator {
                 }
             }
         }
-        Matrix matrix = new Matrix(coordinates);
-        return matrix.determinant() != 0;
+        return new MatrixDeterminantCalculator(coordinates).determinant() != 0;
     }
 
-    private boolean isBasisParallelCoordinatePlane(Tetrahedron tetrahedron) {
+    private boolean checkBasisParallelCoordinatePlane(Tetrahedron tetrahedron) {
         TetrahedronAction action = new TetrahedronAction();
-        return action.isBasisParallelOx(tetrahedron) ||
-                action.isBasisParallelOy(tetrahedron) ||
-                action.isBasisParallelOz(tetrahedron);
+        return action.checkBasisParallelOx(tetrahedron) ||
+                action.checkBasisParallelOy(tetrahedron) ||
+                action.checkBasisParallelOz(tetrahedron);
     }
 }

@@ -1,6 +1,6 @@
 package by.epam.task1.entity;
 
-public class Point implements GeometricalEntity{
+public class Point {
     private double x;
     private double y;
     private double z;

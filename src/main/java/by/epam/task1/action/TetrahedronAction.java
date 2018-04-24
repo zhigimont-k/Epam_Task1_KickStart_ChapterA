@@ -2,15 +2,16 @@ package by.epam.task1.action;
 
 import by.epam.task1.entity.Point;
 import by.epam.task1.entity.Tetrahedron;
-import by.epam.task1.matrix.Matrix;
+import by.epam.task1.matrix.MatrixDeterminantCalculator;
 import by.epam.task1.validation.ParameterValidator;
 
+import java.util.ArrayList;
+
 public class TetrahedronAction {
-    private static final int MATRIX_ROWS = 4;
+    private static final int POINTS_NUMBER = 4;
 
     public double calculateSurfaceArea(Tetrahedron tetrahedron) {
-        double area = 0;
-        area += calculateTriangleArea(tetrahedron.get(0), tetrahedron.get(1), tetrahedron.get(2));
+        double area = calculateTriangleArea(tetrahedron.get(0), tetrahedron.get(1), tetrahedron.get(2));
         area += calculateTriangleArea(tetrahedron.get(0), tetrahedron.get(1), tetrahedron.get(3));
         area += calculateTriangleArea(tetrahedron.get(0), tetrahedron.get(2), tetrahedron.get(3));
         area += calculateTriangleArea(tetrahedron.get(1), tetrahedron.get(2), tetrahedron.get(3));
@@ -28,9 +29,9 @@ public class TetrahedronAction {
     }
 
     public double calculateVolume(Tetrahedron tetrahedron) {
-        double[][] coordinates = new double[MATRIX_ROWS][MATRIX_ROWS];
-        for (int i = 0; i < MATRIX_ROWS; i++) {
-            for (int j = 0; j < MATRIX_ROWS; j++) {
+        double[][] coordinates = new double[POINTS_NUMBER][POINTS_NUMBER];
+        for (int i = 0; i < POINTS_NUMBER; i++) {
+            for (int j = 0; j < POINTS_NUMBER; j++) {
                 if (j == 0) {
                     coordinates[i][j] = 1;
                 }
@@ -45,28 +46,27 @@ public class TetrahedronAction {
                 }
             }
         }
-        Matrix matrix = new Matrix(coordinates);
-        return Math.abs(matrix.determinant() / 6);
+        return Math.abs(new MatrixDeterminantCalculator(coordinates).determinant() / 6);
     }
 
     public double calculateVolumeRatio(Tetrahedron tetrahedron) {
         PointAction action = new PointAction();
         Point coordinatePlanePoint = new Point();
         Point vertex = new Point();
-        if (isBasisParallelOx(tetrahedron)) {
-            vertex = action.findMaximumXPoint(tetrahedron);
+        if (checkBasisParallelOx(tetrahedron)) {
+            vertex = findMaximumXPoint(tetrahedron);
             coordinatePlanePoint.setX(0);
             coordinatePlanePoint.setY(vertex.getY());
             coordinatePlanePoint.setZ(vertex.getZ());
         }
-        if (isBasisParallelOy(tetrahedron)) {
-            vertex = action.findMaximumYPoint(tetrahedron);
+        if (checkBasisParallelOy(tetrahedron)) {
+            vertex = findMaximumYPoint(tetrahedron);
             coordinatePlanePoint.setX(vertex.getX());
             coordinatePlanePoint.setY(0);
             coordinatePlanePoint.setZ(vertex.getZ());
         }
-        if (isBasisParallelOz(tetrahedron)) {
-            vertex = action.findMaximumZPoint(tetrahedron);
+        if (checkBasisParallelOz(tetrahedron)) {
+            vertex = findMaximumZPoint(tetrahedron);
             coordinatePlanePoint.setX(vertex.getX());
             coordinatePlanePoint.setY(vertex.getY());
             coordinatePlanePoint.setZ(0);
@@ -77,40 +77,77 @@ public class TetrahedronAction {
         return truncatedTetrahedronVolume / (wholeVolume - truncatedTetrahedronVolume);
     }
 
-    public boolean isBasisParallelOx(Tetrahedron tetrahedron) {
+    public boolean checkBasisParallelOx(Tetrahedron tetrahedron) {
         Point point1 = tetrahedron.get(1);
         Point point2 = tetrahedron.get(2);
         Point point3 = tetrahedron.get(3);
         return point1.getX() == point2.getX() && point2.getX() == point3.getX();
     }
 
-    public boolean isBasisParallelOy(Tetrahedron tetrahedron) {
+    public boolean checkBasisParallelOy(Tetrahedron tetrahedron) {
         Point point1 = tetrahedron.get(1);
         Point point2 = tetrahedron.get(2);
         Point point3 = tetrahedron.get(3);
         return point1.getY() == point2.getY() && point2.getY() == point3.getY();
     }
 
-    public boolean isBasisParallelOz(Tetrahedron tetrahedron) {
+    public boolean checkBasisParallelOz(Tetrahedron tetrahedron) {
         Point point1 = tetrahedron.get(1);
         Point point2 = tetrahedron.get(2);
         Point point3 = tetrahedron.get(3);
         return point1.getZ() == point2.getZ() && point2.getZ() == point3.getZ();
     }
 
-    public boolean isTetrahedron(Object o) {
+    public boolean checkTetrahedron(Object o) {
         Tetrahedron other = (Tetrahedron) o;
         ParameterValidator validator = new ParameterValidator();
         return validator.validate(other);
     }
 
-    public boolean isBasisOnCoordinatePlane(Tetrahedron tetrahedron) {
+    public boolean checkBasisOnCoordinatePlane(Tetrahedron tetrahedron) {
         Point point1 = tetrahedron.get(1);
         Point point2 = tetrahedron.get(2);
         Point point3 = tetrahedron.get(3);
-        return (point1.getX() == 0 && point2.getX() == 0 && point3.getX() == 0) ||
-                (point1.getY() == 0 && point2.getY() == 0 && point3.getY() == 0) ||
-                (point1.getZ() == 0 && point2.getZ() == 0 && point3.getZ() == 0);
+        return point1.getX() == 0 && point2.getX() == 0 && point3.getX() == 0 ||
+                point1.getY() == 0 && point2.getY() == 0 && point3.getY() == 0 ||
+                point1.getZ() == 0 && point2.getZ() == 0 && point3.getZ() == 0;
+    }
+
+
+    private Point findMaximumXPoint(Tetrahedron tetrahedron) {
+        ArrayList<Point> points = new ArrayList<>();
+        for (int i = 0; i < POINTS_NUMBER; i++) {
+            points.add(tetrahedron.get(i));
+        }
+        Point max = points.get(0);
+        for (Point point : points) {
+            max = (point.getX() > max.getX()) ? point : max;
+        }
+        return max;
+    }
+
+    private Point findMaximumYPoint(Tetrahedron tetrahedron) {
+        ArrayList<Point> points = new ArrayList<>();
+        for (int i = 0; i < POINTS_NUMBER; i++) {
+            points.add(tetrahedron.get(i));
+        }
+        Point max = points.get(0);
+        for (Point point : points) {
+            max = (point.getY() > max.getY()) ? point : max;
+        }
+        return max;
+    }
+
+    private Point findMaximumZPoint(Tetrahedron tetrahedron) {
+        ArrayList<Point> points = new ArrayList<>();
+        for (int i = 0; i < POINTS_NUMBER; i++) {
+            points.add(tetrahedron.get(i));
+        }
+        Point max = points.get(0);
+        for (Point point : points) {
+            max = (point.getZ() > max.getZ()) ? point : max;
+        }
+        return max;
     }
 
 }
